@@ -1,5 +1,5 @@
-title:        Alpha News Stream
-url:          https://alpha-news-stream.github.io/portal/
+title: Template
+url: https://kinlane.github.io/template-bootstrap/
 
 permalink: /:categories/:year/:month/:day/:title/
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]

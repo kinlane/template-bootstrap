@@ -1,0 +1,57 @@
+{% include head.html %}
+
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="/">{{ site.title }}</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="/{{ site.github_repo}}/">Home</a></li>
+      <li class="active"><a href="/{{ site.github_repo}}/">Menu Item</a></li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="/api-specification/hsda/">Dropdown Menu
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Menu Item</a></li>
+          <li><a href="#">Menu Item</a></li>
+          <li><a href="#">Menu Item</a></li>
+          <li><a href="#">Menu Item</a></li>
+        </ul>
+      </li>
+      <li class="active"><a href="/{{ site.github_repo}}/">Menu Item</a></li>
+    </ul>
+  </div>
+</nav>
+<div class="container">
+    <div style="padding: 50px;">
+        <div class="page">
+          {{ content }}
+        </div>
+    </div>
+</div>
+<style>
+    .panel-footer ul{
+       margin-top: 5px;
+    }
+    .panel-footer ul li {
+        display: inline;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .panel-footer ul a{
+       color: #FFF;
+    }
+</style>
+<footer class="panel-footer">
+  <div class="container" align="center">
+    <ul>
+        <li><a href="/{{ site.github_repo }}/">Home</a></li>
+        <li><a href="/{{ site.github_repo }}/">Footer Item</a></li>
+    </ul>
+  </div>
+</footer>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>

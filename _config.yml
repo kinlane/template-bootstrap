@@ -6,3 +6,6 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 
 categories_path : /categories.html
 tags_path : /tags.html
+
+github_org: kinlane
+github_repo: template-bootstrap

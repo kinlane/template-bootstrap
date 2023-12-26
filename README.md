@@ -1,5 +1,3 @@
-## Alpha News Stream Portal
+## Template
 
-This is the portal for the Alpha News Stream API.
-
-URL:
+A bootstrap template.
